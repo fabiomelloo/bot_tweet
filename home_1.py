@@ -10,5 +10,5 @@ cleint = tweepy.Client(bearer_token, consumer_key, consumer_secret, access_token
 auth = tweepy.OAuth1UserHandler(consumer_key,consumer_secret,access_token,access_token_secret)
 api = tweepy.API(auth)
 # tweetar ssssssss
-
+ssss
 cleint.create_tweet(text='OI MUNDAO')
