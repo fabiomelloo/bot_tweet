@@ -9,5 +9,7 @@ access_token_secret = "CMJ0PT3upBzpWj6UIxVHLkT8pggHBQful3H421b8PXhWO"
 cleint = tweepy.Client(bearer_token, consumer_key, consumer_secret, access_token, access_token_secret)
 auth = tweepy.OAuth1UserHandler(consumer_key,consumer_secret,access_token,access_token_secret)
 api = tweepy.API(auth)
-# tweetar 
+# tweetar s
 cleint.create_tweet(text='OI MUNDAO')
+
+asfasf
